@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>外国人名 漢字当て字ジェネレーター</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🌸 外国人名 漢字当て字ジェネレーター 🌸</h1>
+
+    <p class="description">
+        外国人名を日本風の漢字に変換します
+    </p>
+
+    <div class="card">
+
+        <label>名前（ローマ字）</label>
+
+        <input
+            id="nameInput"
+            type="text"
+            placeholder="例：Michael">
+
+    </div>
+
+    <div class="card">
+
+        <label>性別</label>
+
+        <select id="gender">
+
+            <option value="male">男性</option>
+
+            <option value="female">女性</option>
+
+            <option value="neutral">中性</option>
+
+        </select>
+
+    </div>
+
+    <div class="card">
+
+        <label>候補数</label>
+
+        <select id="count">
+
+            <option>5</option>
+
+            <option selected>10</option>
+
+            <option>15</option>
+
+            <option>20</option>
+
+        </select>
+
+    </div>
+
+    <button id="generateButton">
+
+        漢字を生成する
+
+    </button>
+
+
+<!-- ===== Part15 操作ボタン ===== -->
+
+    <button id="regenerateBtn">
+
+        🔄 もう一度生成
+
+    </button>
+
+
+    <button id="showFavoriteBtn">
+
+        ⭐ お気に入り表示
+
+    </button>
+    
+
+    <div id="result">
+
+        ここに変換結果が表示されます。
+
+    </div>
+
+</div>
+
+<script src="js/dictionary.js"></script>
+<script src="js/ng.js"></script>
+<script src="js/score.js"></script>
+<script src="js/roman.js"></script>
+<script src="js/natural.js"></script>
+<script src="js/generator.js"></script>
+<script src="js/filter.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+
+</html>

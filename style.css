@@ -1,0 +1,220 @@
+body{
+
+    margin:0;
+
+    background:#f3f6fb;
+
+    font-family:sans-serif;
+
+}
+
+.container{
+
+    width:900px;
+
+    max-width:95%;
+
+    margin:40px auto;
+
+}
+
+h1{
+
+    text-align:center;
+
+    color:#3a3a3a;
+
+}
+
+.description{
+
+    text-align:center;
+
+    color:#666;
+
+    margin-bottom:30px;
+
+}
+
+.card{
+
+    background:white;
+
+    padding:20px;
+
+    margin-bottom:20px;
+
+    border-radius:10px;
+
+    box-shadow:0 0 10px rgba(0,0,0,.1);
+
+}
+
+label{
+
+    display:block;
+
+    font-weight:bold;
+
+    margin-bottom:10px;
+
+}
+
+input{
+
+    width:100%;
+
+    font-size:18px;
+
+    padding:12px;
+
+    box-sizing:border-box;
+
+}
+
+select{
+
+    width:100%;
+
+    font-size:18px;
+
+    padding:12px;
+
+}
+
+button{
+
+    width:100%;
+
+    padding:18px;
+
+    font-size:22px;
+
+    border:none;
+
+    background:#4CAF50;
+
+    color:white;
+
+    cursor:pointer;
+
+    border-radius:10px;
+
+}
+
+button:hover{
+
+    background:#43A047;
+
+}
+
+#result{
+
+    margin-top:30px;
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:10px;
+
+    min-height:200px;
+
+    box-shadow:0 0 10px rgba(0,0,0,.1);
+
+}
+
+/* ===== Part14 名前カードデザイン ===== */
+
+
+.candidate{
+
+
+    background:white;
+
+    border-radius:15px;
+
+    padding:25px;
+
+    margin:20px 0;
+
+    box-shadow:
+
+    0 4px 12px
+
+    rgba(0,0,0,0.15);
+
+
+    text-align:center;
+
+
+}
+
+
+
+.candidate h2{
+
+
+    font-size:42px;
+
+    color:#333;
+
+    margin-bottom:10px;
+
+
+}
+
+
+
+.candidate p{
+
+
+    font-size:18px;
+
+    line-height:1.8;
+
+}
+
+
+
+.score-star{
+
+
+    color:#f5b301;
+
+    font-size:28px;
+
+    letter-spacing:3px;
+
+
+}
+
+
+
+.rank{
+
+
+    font-size:22px;
+
+    font-weight:bold;
+
+    color:#555;
+
+
+}
+
+
+
+.meaning{
+
+
+    background:#f5f7ff;
+
+    padding:15px;
+
+    border-radius:10px;
+
+    margin-top:15px;
+
+
+}

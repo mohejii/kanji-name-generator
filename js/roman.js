@@ -280,7 +280,8 @@ const PRONUNCIATION_FIX = {
     "rose":[
         "ro",
         "ze"
-    ]
+    ],
+    
 // ===== Part15-A-1 発音辞書強化 =====
 
 

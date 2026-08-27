@@ -1,7 +1,7 @@
 import { GoogleGenAI, Type } from '@google/genai';
 
 // ⚠️ ご自身の API キー（" " で囲む）
-const GEMINI_API_KEY = "YOUR_API_KEY_HERE";
+const GEMINI_API_KEY = "AQ.Ab8RN6K-_HAm6hc9xGgv-dFoHrL-KS0tlPXUA4oZlOlbNbAQnw";
 
 const ai = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
 

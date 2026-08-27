@@ -25,21 +25,18 @@
 
 <div class="container">
 
-    <h1>🌸 外国人名 漢字当て字ジェネレーター 🌸</h1>
+    <h1>外国人名 漢字当て字ジェネレーター</h1>
 
-    <p class="description">
-        外国人名を日本風の漢字に変換します
-    </p>
+    <!-- 入力エリア -->
+    <div class="search-box">
+      <input type="text" id="nameInput" placeholder="例: Michael, Sofia" />
+      <button id="generateBtn">作成</button>
+    </div>
 
-    <div class="card">
-
-        <label>名前（ローマ字）</label>
-
-        <input
-            id="nameInput"
-            type="text"
-            placeholder="例：Michael">
-
+    <!-- エラー・ローディング・結果表示エリア -->
+    <div id="errorMsg" class="error-msg" style="display: none;"></div>
+    <div id="loading" class="loading" style="display: none;">AIが漢字を考えています...</div>
+    <div id="resultArea" class="results"></div>
     </div>
 
     <div class="card">

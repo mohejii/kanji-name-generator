@@ -40,7 +40,7 @@ async function handleGenerate() {
     const prompt = `外国人の名前「${name}」に合う漢字の当て字を ${count} つ提案してください。性別/印象: ${genderText}`;
 
     const response = await ai.models.generateContent({
-      model: 'gemini-2.5-flash',
+      model: 'gemini-3.6-flash',
       contents: prompt,
       config: {
         responseMimeType: 'application/json',
